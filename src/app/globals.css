@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
+  --color-card: #ffffff;
+  --color-muted: #f1f5f9;
+  --color-muted-foreground: #64748b;
+  --color-border: #e2e8f0;
+  --color-ring: #b8912f;
+  --color-primary: #1b2f57;
+  --color-gold: #b8912f;
+  --color-primary-foreground: #ffffff;
+  --color-destructive: #dc2626;
+  --color-success: #15803d;
+  --color-warning: #b45309;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #f8fafc;
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+/* Teks soal: pertahankan baris & mudah dibaca */
+.question-text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  line-height: 1.65;
+}
